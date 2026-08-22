@@ -1,0 +1,12 @@
+{
+  "name": "blastgraph",
+  "version": "0.1.0",
+  "description": "Cloud IAM analysis that traverses privilege-escalation paths to crown-jewel resources instead of listing over-permissive policies.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.ts"
+  }
+}
